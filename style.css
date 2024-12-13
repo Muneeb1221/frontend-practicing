@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+header {
+    background-color: transparent;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.one {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two img {
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.three ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.three li {
+    margin-left: 20px;
+}
+
+.three a {
+    text-decoration: none;
+    color: rgb(70, 56, 56);
+    font-size: 16px;
+}
+
+.three a:hover {
+    color: rgb(231, 80, 80);
+}
+
+.five, .six {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 20px;
+}
+.six{
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 20px;
+}
+.five img {
+    max-width: 150px;
+    height: 200px;
+    border-radius: 70px;
+}
+.six img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.seven {
+    border-radius: 50%;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+
+.seven:hover{
+    opacity: 0.7;
+}
+.eight:hover{
+    opacity: 0.7;
+}
+
+.nine {
+    border: 1px solid white;
+    background-color: bisque;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+}
+
+.fa-facebook{
+    font-size: 25px;
+    margin: 10px;
+    color: blue;
+}
+.fa-twitter{
+    font-size: 25px;
+    margin: 10px;
+    color: skyblue;
+}
+.fa-instagram{
+    font-size: 25px;
+    margin: 10px;
+    color: red;
+}
+.fa-tiktok{
+    font-size: 25px;
+    margin: 10px;
+}
+.fa-linkedin{
+    font-size: 25px;
+    margin: 10px;
+    color: blue;
+}
+.fa-discord{
+    font-size: 25px;
+    margin: 10px;
+    color: blue;
+}
+.fa-youtube{
+    font-size: 25px;
+    margin: 10px;
+    color: red;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .three ul {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .three li {
+        margin: 10px 0;
+    }
+
+    .five{
+        margin: 20px;
+        padding: 15px;
+    }
+    .six{
+        margin: 20px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .two img {
+        height: 40px;
+    }
+
+    .three a {
+        font-size: 14px;
+    }
+
+    .seven {
+        width: 150px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
